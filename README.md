@@ -4,3 +4,10 @@
 
 ## 📌 Descripción del Proyecto
 Este repositorio contiene el desarrollo **Front-End** de la tienda virtual de **BotanicFrame**. La plataforma ofrece una interfaz web responsive, simple y con la aplicacion de los contenidos abordados en clase para la navegación. 
+
+## 🐱‍🏍 Conceptos abordados y tecnologías
+* Maquetado y estructura etiquetas semanticas
+* Fuentes e iconos de GoogleFonts
+* Imágenes y background
+* BEM y flexbox
+* Media query
