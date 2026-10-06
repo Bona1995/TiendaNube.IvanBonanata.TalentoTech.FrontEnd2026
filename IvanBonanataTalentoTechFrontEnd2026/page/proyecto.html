@@ -11,21 +11,26 @@
     <title>Document</title>
 </head>
 <body>
+<!-------HEADER-------->
     <header class="box1">
         <img src="../image/Diseño sin título.png" height="140" width="360">
-        <div class="boxsearch">
-            <span class="material-symbols-outlined">search</span>
-        </div> 
         <section class="boxnav">
-            <h1>Bienvenidos!</h1>
+            <div class="boxsearch">
+                <span class="material-symbols-outlined">search</span>
+            </div> 
             <div class="box2">
-                <p><a href="inicio.html">Inicio</a></p>
-                <p><a href="catalogo.html">Catalogo</a></p>
-                <p><a href="tu diseño.html">Tu diseño</a></p>
-                <p><a href="sobre nosostros.html">Sobre nosotros</a></p>     
+                <h1>Bienvenidos!</h1>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catalogo</a></li>
+                    <li><a href="tu diseño.html">Tu diseño</a></li>
+                    <li><a href="sobre nosostros.html">Sobre nosotros</a></li> 
+                </ul>    
             </div>
         </section> 
     </header>
+<!-------MAIN-------->
+<!-------PRINCIAPL PRODUCTOS DESTACADOS-------->
     <main>
         <div class="principal">
             <section>
@@ -34,7 +39,7 @@
                     <div class="hijo-texto">
                         <p>Producto destacado!        <span class="material-symbols-outlined">favorite</span></p>
                         <h2>Cuadro vegetal nº1</h2>
-                        <button>Comprar</button>
+                        <button><a href="">Comprar</a></button>
                     </div>
                 </article>
                 <article class="producto">
@@ -42,11 +47,38 @@
                     <div class="hijo-texto">
                          <p>Producto destacado!        <span class="material-symbols-outlined">favorite</span></p>
                         <h2>Cuadro vegetal nº2</h2>
-                        <button>Comprar</button>
+                        <button><a href="">Comprar</a></button>
                     </div>
                 </article>
             </section>
         </div>
-    </main>  
+<!-------FORMULARIO CONSULTA-------->
+        <div class="principalform">     
+            <section class="form">
+                <form action="" method="post" id="FormularioConsulta" autocomplete="on">
+                    <h1>Queres saber mas?</h1>
+                    <p>Contactanos!</p>
+                    <div>
+                        <label for="nombre">Nombre</label><input type="text" id="nombre" placeholder="Ej: Juan Martin">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido</label><input type="text" id="apellido" placeholder="Ej: Bognano">
+                    </div>
+                    <div>
+                        <label for="email">Email</label><input type="email" id="email" placeholder="Ej: juanmartinbognano@gmail.com" required>
+                    </div> 
+                    <div>
+                        <label for="comentario">Tu mensaje</label><textarea  id="comentario" name="comentario" rows="5" cols="50" placeholder="Ej: Quiero cotizar mi cuadro vegetal personalizado..."></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>       
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer> 
 </body>
 </html>
