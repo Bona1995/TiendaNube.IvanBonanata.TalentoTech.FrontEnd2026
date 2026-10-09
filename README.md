@@ -11,3 +11,6 @@ Este repositorio contiene el desarrollo **Front-End** de la tienda virtual de **
 * Imágenes y background
 * BEM y flexbox
 * Media query
+
+## 👀 Facilidades
+**Border**. Se utilizaron a modo de facilitar la rápida visualización de contenedores y su BEM.
