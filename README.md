@@ -9,6 +9,7 @@ Este repositorio contiene el desarrollo **Front-End** de la tienda virtual de **
 * Maquetado y estructura etiquetas semanticas
 * Fuentes e iconos de GoogleFonts
 * Imágenes y background
+* Formulario y Formspree
 * BEM y flexbox
 * Media query
 
