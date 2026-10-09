@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search,favorite"/>
+    <link rel="stylesheet" href="./style/IvanBonanataProyectoFrontTalentoTech - copia.css">
+    <title>IvanBonanataProyectoFrontTalentoTech</title>
+</head>
+<body>
+<!-------HEADER-------->
+    <header class="box1">
+        <img src="./image/Diseño sin título.png" height="140" width="360">
+        <section class="boxnav">
+            <div class="box2">
+                <h1>Bienvenidos!</h1>
+                <div class="boxsearch">
+                    <span class="material-symbols-outlined">search</span>
+                </div> 
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catalogo</a></li>
+                    <li><a href="tu diseño.html">Tu diseño</a></li>
+                    <li><a href="sobre nosostros.html">Sobre nosotros</a></li> 
+                </ul>    
+            </div>
+        </section> 
+    </header>
+<!-------MAIN-------->
+<!-------PRINCIAPL PRODUCTOS DESTACADOS-------->
+    <main>
+        <div class="principal">
+            <section>
+                <article class="producto">
+                    <img src="./image/Gemini_Generated_Image_vz6kjjvz6kjjvz6k.jpg" alt="cuadro1">
+                    <div class="hijo-texto">
+                        <p>Producto destacado!        <span class="material-symbols-outlined">favorite</span></p>
+                        <h2>Cuadro vegetal nº1</h2>
+                        <button><a href="">Comprar</a></button>
+                    </div>
+                </article>
+                <article class="producto">
+                    <img src="./image/Gemini_Generated_Image_3n3v0l3n3v0l3n3v.jpg" alt="cuadro1">
+                    <div class="hijo-texto">
+                         <p>Producto destacado!        <span class="material-symbols-outlined">favorite</span></p>
+                        <h2>Cuadro vegetal nº2</h2>
+                        <button><a href="">Comprar</a></button>
+                    </div>
+                </article>
+            </section>
+        </div>
+<!-------FORMULARIO CONSULTA-------->
+        <div class="principalform">     
+            <section>
+                <form action="https://formspree.io/f/xkjobggo" method="post" name="FormularioConsulta" id="FormularioConsulta" autocomplete="on">
+                    <h1>Queres saber mas?</h1>
+                    <p>Contactanos!</p>
+                    <div class="divbox">
+                        <label for="nombre">Nombre</label><input type="text" id="nombre" placeholder="Ej: Juan Martin">
+                    </div>
+                    <div class="divbox">
+                        <label for="apellido">Apellido</label><input type="text" id="apellido" placeholder="Ej: Bognano">
+                    </div>
+                    <div class="divbox">
+                        <label for="email">Email</label><input type="email" id="email" placeholder="Ej: juanmartinbognano@gmail.com" required>
+                    </div> 
+                    <div class="divbox">
+                        <label for="comentario">Tu mensaje</label><textarea  id="comentario" name="comentario" rows="5" cols="40" placeholder="Ej: Quiero cotizar mi cuadro vegetal personalizado..."></textarea>
+                    </div>
+                    <div class="divbox">
+                        <button type="submit">Enviar</button>
+                    </div>       
+                </form>
+            </section>
+        </div>
+    </main>   
+    <footer>
+        <div class="footerbox">
+            <section class="footersection1">
+                <div class="footerdiv">
+                    <h1>Direccion</h1>
+                    <h2>Buenos Aires, Argentina</h2>
+                    <p>Calle falsa 123</p>
+                </div>
+                <div class="footerdiv">
+                    <h1>Facilidades de compra</h1>
+                    <p>Medio de pago</p>
+                    <img src="./image/pay.png" alt="pagos" height="40px" width="250px">
+                </div>
+                <div class="footerdiv">
+                    <h1>Redes</h1>
+                    <img src="./image/facebook-brands-solid-full.svg" height="30px" width="30px">
+                    <img src="./image/instagram-brands-solid-full.svg" height="30px" width="30px">
+                    <img src="./image/mercado-libre-svgrepo-com.svg" height="30px" width="30px">
+                </div>
+            </section>
+            <section class="footersection1">
+                <p> © 2026, TalentoTech, Buenos Aires, Argentina, Ivan Bonanata</p>
+            </section>
+        </div>
+    </footer> 
+</body>
+</html>
