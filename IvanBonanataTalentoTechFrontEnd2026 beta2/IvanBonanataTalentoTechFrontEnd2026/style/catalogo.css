@@ -1,0 +1,107 @@
+/*---------PRODUCTOS BANNER--------*/
+.productosbanner{
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: flex-end;
+flex-flow: column nowrap;
+background-image: url("../image/Gemini_Generated_Image_54y2wy54y2wy54y2.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+gap: 7px;
+width: 100%;
+height: auto;
+padding: 15px;
+margin-bottom: 5px;
+border: 2px slateblue solid;
+border-radius: 8px;
+}
+.productosbanner h1{
+font-size: 2rem;
+font-weight: 650;
+margin-bottom: 5px;
+background-color: hsla(121, 45%, 78%, 0.397);
+border: 2px;
+border-radius: 8px;
+}
+.productosbanner h2{
+font-size: 1.5rem;
+font-weight: 550;
+background-color: hsla(121, 45%, 78%, 0.397);
+border: 2px;
+border-radius: 8px;
+}
+.productosbanner p{
+font-size: 1.2rem;
+font-weight: 450;
+background-color: hsla(121, 45%, 78%, 0.397);
+border: 2px;
+border-radius: 8px;
+}
+
+/*---------PRODUCTOS CARDS--------*/
+.productossection{
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+flex-flow: row wrap;
+width: 100%;
+height: auto;
+padding: 2px;
+border: 2px slateblue solid;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+.productoscards{
+display: flex;
+justify-content: center;
+align-content: center;
+flex-flow: column nowrap;
+width: 31%;
+min-width: 200px;
+margin: 10px;
+padding: 10px;
+border: 2px slateblue solid;
+border-radius: 8px;
+cursor: pointer;
+box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+transition: 0.8s ease;
+flex-grow: 1;
+}
+.productoscards img{
+width: 100%;
+border-radius: 20px;
+height: auto;
+object-fit: contain;
+display: block;
+border: 2px;
+border-radius: 8px;
+}
+
+.productostexto{
+text-align: start;
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+flex-flow: column nowrap;
+margin-top: 10px;
+width: 100%;
+padding: 2px;
+height: 150px;
+}
+.productostexto button{
+width: auto;
+height: auto;
+font-size: 1.1rem;
+font-weight: 550;
+color: rgba(113, 241, 141, 0.849);
+background-color: rgba(149, 79, 214, 0.671);
+border: 2px;
+border-radius: 10px;
+margin: 1px;
+padding: 5px;
+resize: vertical;
+cursor: pointer;
+}
